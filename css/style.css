@@ -33,6 +33,7 @@
 [End table of contents]
 ----------------------------------------------------------------------- */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap');
 @import url('animation-spin.css');
 @font-face {
@@ -159,7 +160,8 @@ body {
   line-height: 28px;
 
   letter-spacing: 0;
-  color:var(--clr-body-text);
+  background:var(--clr-common-black-deep);
+  color:var(--clr-common-white);
  }
 
 
@@ -363,7 +365,7 @@ p{
   height: 0%;
 }
 .btn.btn3{
-  color: var(--clr-body-heading);
+  color: var(--clr-common-white);
 }
 .btn.btn3:before{
   height: 0;
@@ -1208,6 +1210,7 @@ Start About section styles
 }
 .about-bxs .inner-bx p {
   padding-top: 10px;
+  color: var(--clr-common-black-deep);
 }
 .about-bxs .inner-bx p strong {
   font-weight: 700;
@@ -1796,7 +1799,7 @@ Start Team member section styles
 -------------------------------- */
 
 .team-member-sec{
-  background-color: #FEF6F2;
+  background: radial-gradient(152% 117% at 50% 50%, #111111 0%, #111111 23%, #e0b15e 63%, #e0b15e 100%);
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -2139,7 +2142,7 @@ Start Blog section styles
 
 .single-blog-wrap .meta {
   margin-top: 15px;
-  background: var(--clr-white-light);
+  background: var(--clr-common-black-deep);
   border-radius: 30px;
   padding: 6px 20px;
 }
@@ -2155,7 +2158,7 @@ Start Blog section styles
 }
 
 .single-blog-wrap .cont h3 a {
-  color: var(--clr-body-heading);
+  color: var(--clr-common-white);
   display: inline-block;
 }
 
@@ -2222,9 +2225,6 @@ Start Footers styles
 -------------------------------- */
 
 .footers{
-  background: -o-radial-gradient(39.93% 76.06% at 50% 50%, #1D2493 0%, #1C2187 23%, #181967 63%, #141045 100%);
-  background: -webkit-radial-gradient(50% 50%, 39.93% 76.06%, #1D2493 0%, #1C2187 23%, #181967 63%, #141045 100%);
-  background: radial-gradient( #b38e4e 63%, #231f1a 100%);
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -2354,7 +2354,7 @@ border-radius: 5px;
   margin-top: 120px;
   background: -o-linear-gradient(90deg, #1D1856 0%, #1D2085 50%, #1D1854 100%);
   background: -webkit-linear-gradient(90deg, #1D1856 0%, #1D2085 50%, #1D1854 100%);
-  background: linear-gradient(90deg, #212529 0%, #e0b15e 50%, #0b1d35 100%);
+  background: linear-gradient(90deg, #e0b15e 0%, #e0b15e 50%, #e0b15e 100%);
   padding: 21px 0;
 }
 .copyright-conts p{
